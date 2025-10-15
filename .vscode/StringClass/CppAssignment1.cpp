@@ -18,6 +18,6 @@ class URL{
 };
 
 int main(){
-    URL test = URL("http", "www.example.com/index/html");
+    URL test = URL("http", "www.example1.com/index/html");
     test.displayUrl();
 }
