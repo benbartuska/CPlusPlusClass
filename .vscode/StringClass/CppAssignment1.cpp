@@ -11,6 +11,7 @@ class URL{
             protocol = protocolIn;
             resource = resourceIn;
         }
+        
         void displayUrl(){
             cout << protocol << "://" << resource << endl;
         }
