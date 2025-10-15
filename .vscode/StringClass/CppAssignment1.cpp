@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+class URL{
+    string protocol;
+    string resource;
+
+    public:
+        URL(string protocolIn, string resourceIn) {
+            protocol = protocolIn;
+            resource = resourceIn;
+        }
+        void displayUrl(){
+            cout << protocol << "://" << resource << endl;
+        }
+};
+
+int main(){
+    URL test = URL("http", "www.example.com/index/html");
+    test.displayUrl();
+}
