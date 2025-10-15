@@ -11,13 +11,13 @@ class URL{
             protocol = protocolIn;
             resource = resourceIn;
         }
-        
+
         void displayUrl(){
             cout << protocol << "://" << resource << endl;
         }
 };
 
 int main(){
-    URL test = URL("http", "www.example.com/index/html");
+    URL test = URL("http", "www.example2.com/index/html");
     test.displayUrl();
 }
